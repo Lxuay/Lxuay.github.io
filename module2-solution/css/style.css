@@ -1,0 +1,70 @@
+* {
+	box-sizing:border-box;
+	font-family:Dekko,Arial,sans-serif;
+}
+body {
+	padding:10%;
+	background-color:brown;
+}
+h1 {
+	color:#fc7060;
+	text-align:center;
+}
+.item {
+	float:left;
+	padding:5px;
+	border:2px solid darkblue;
+	text-align:left;
+	margin-bottom:25px;
+	color:white;
+	background-color:#D9606C;
+}
+h3 {
+	margin-top:-5px;
+	margin-right:-5px;
+	float:right;	
+	border:1px solid maroon;
+	background-color:#d3a9e8;
+	color:#560f7a;
+}
+.det {
+	clear:right;
+	}
+@media (min-width:992px){
+	body{
+	padding:5%;
+	}
+	.item{
+	float:left;
+	max-width:27%;
+	margin:2%;
+	}
+}
+@media (min-width:768px) and (max-width:991px){
+	body{
+	padding:0%;
+	}
+	.item{
+	float:left;
+	width:49%;
+	height:12em;
+	}
+	#burgers{
+	float:right;
+	width:49%;
+	}
+	#vegan{
+	margin-top:-20px;
+	clear:both;
+	width:auto;
+	}
+}
+@media (max-width:767px) {
+	.item{
+	width:auto;
+	}
+}
+/*mobile first ;)
+I wrote all of this and tested it on my phone */
+
+
